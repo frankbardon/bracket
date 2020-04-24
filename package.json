@@ -1,0 +1,27 @@
+{
+  "name": "bracket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "ts-node test.ts",
+    "chance": "ts-node samples/chance.ts",
+    "skill": "ts-node samples/skill.ts",
+    "skill-sync": "ts-node samples/skill-sync.ts",
+    "similar-skill": "ts-node samples/similar-skill.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.2",
+    "ts-jest": "^25.4.0",
+    "ts-node": "^8.9.0",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "mathjs": "^6.6.4"
+  }
+}
