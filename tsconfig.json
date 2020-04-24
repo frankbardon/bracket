@@ -3,9 +3,9 @@
   "compilerOptions": {
     "baseUrl": "",
     "rootDir": ".",
-    "outDir": "./dist/out-tsc",
+    "outDir": "./dist",
     "sourceMap": false,
-    "declaration": false,
+    "declaration": true,
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "importHelpers": true,

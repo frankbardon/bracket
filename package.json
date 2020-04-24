@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "run": "ts-node test.ts",
     "chance": "ts-node samples/chance.ts",
     "skill": "ts-node samples/skill.ts",
